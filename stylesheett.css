@@ -1,0 +1,425 @@
+
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin:0;
+  color:black;
+  font-family:"Hannari";
+}
+
+header{
+  width:100%;
+  position :fixed;
+  top: 0;
+  z-index: 1000;
+  background-color: rgba(250, 245, 245, 0.6);
+  height:100px;
+}
+
+.header-left{
+ float:left;
+ padding:20px;
+}
+
+.header-left img{
+	margin-right:10px;
+	vertical-align: middle;
+  width:40px;
+}
+
+.header-left a{
+  color:black;
+}
+
+.headerleft span{
+	vertical-align: middle;
+}
+
+/* ハンバーガーメニュー*/
+.bar {
+  color:black;
+  float: right;
+  font-size: 40px;
+  padding: 21px;
+  display:none;
+}
+
+.bar:hover{
+  cursor:pointer;
+  color:rgb(129, 49, 129);
+}
+
+
+.cross {
+  color:black;
+  float: right;
+  font-size: 40px;
+  padding: 21px;
+  display:none;
+  }
+  
+
+.cross:hover{
+  cursor:pointer;
+  color:rgb(129, 49, 129);
+}
+
+
+.header-right{
+  float: right;
+  padding:30px 50px 0 50px;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  .header-right a{
+    line-height:65px;
+    display:block;
+    padding:0px 20px;
+    float:left;
+    transition:all 0.6s;
+    color:black;
+  }
+  
+  .header-right a:hover{
+   color:violet;
+  }
+
+  .menu{
+    clear:both;
+    display:none;
+    
+  }
+
+  .menu a{
+    line-height:65px;
+    display:block;
+    padding:0px 20px;
+    float:left;
+    transition:all 0.6s;
+    color:black;
+    background-color: rgba(250, 245, 245, 0.6);
+  }
+
+  .menu a:hover{
+    color:violet;
+  }
+
+  .top-wrapper{
+    background-image: url(../kimono-img/9I2A6164.jpg);
+    background-size:cover;
+    width:100%;
+    padding:300px;
+    margin-top:100px;
+  }
+
+
+  #message-wrapper{
+    background-image: url(../kimono-img/back.jpg);
+  }
+  
+
+  .ms-contents{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    margin: 0 auto;
+  }
+
+  .ms-contents p{
+    line-height: 30px;
+   padding:90px 40px 0 0;
+  }
+
+
+  #info-wrapper{
+    margin: 0 auto;
+    background-color: white;
+    padding-top:60px;
+    width:60%;
+  }
+
+  #info-wrapper h2{
+    text-align: center;
+    margin-bottom:40px;
+    background-color: rgb(129, 49, 129);
+    color:white;
+  }
+
+
+  .info-contents p{
+  display:inline-block;
+  }
+
+  .info-contents a{
+    padding-left:30px;
+    color:black;
+  }
+
+  .info-contents a:hover{
+    color:rgb(129, 49, 129);
+  }
+
+  
+ #about-wrapper{
+  margin-top:90px;
+  text-align: center;
+  background-image: url(../kimono-img/18688.jpg);
+  background-size:cover;
+}
+
+
+#about-wrapper h2{
+padding:50px 40px; 
+
+}
+
+
+
+.about-contents{
+position:relative;
+margin: 0 auto;
+padding-bottom:30px;
+}
+
+.statement{
+  background-color: rgba(255, 255, 255, 0.6);
+  padding:40px 30px;
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.statement1{
+  position:absolute;
+  top:40px;
+  right:900px;
+  margin:0 auto;
+}
+
+.statement2{
+  position:absolute;
+  top:40px;
+  left:900px; 
+}
+
+
+
+.statement h3{
+  padding-bottom:20px;
+}
+
+.statement p{
+  font-size:15px;
+  line-height:30px;
+}
+
+.about-img{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.about-img img{
+  width:600px;
+}
+
+
+#member-wrapper{
+  text-align: center;
+background-color:#F5F5F5 ;
+ padding-bottom: 60px;
+}
+
+#member-wrapper h2{
+  padding:50px;
+  /* color:white;
+background-color: rgb(129, 49, 129); */
+}
+
+
+.member{
+padding-top:40px;
+width:70%;
+background-image: url(../kimono-img/wasi.jpg);
+background-size: cover;
+margin: 0 auto;
+}
+
+
+.member img{
+  width:200px;
+  vertical-align: middle;
+  } 
+
+
+.member p{
+  font-size:25px;
+  text-align: center;
+}
+
+
+.member-message{
+  display: inline-block;
+  vertical-align: middle;
+  background-color:rgba(255 ,255 ,255 ,0.4);
+  margin-left:60px;
+  padding:50px;
+  line-height:30px;
+}
+
+
+.store-wrapper{
+  text-align: center;
+}
+
+.store-contents{
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.store-contents img{
+  width:500px;
+  padding-top:40px;
+}
+
+dl{
+  padding:30px;
+  }
+  
+  dt {
+    float: left ;
+    clear: left ;
+    width: 120px ;
+    border-bottom:dashed 1px black ;
+    margin-bottom:15px;
+  }
+  
+  dd {
+    float: left ;
+    margin-left: 1em ;
+  }
+
+  iframe{
+    vertical-align: middle;
+    margin-left:50px;
+  }
+
+footer{
+  height:250px;
+  background-image: url(../kimono-img/wasi.jpg);
+  background-size: cover;
+  margin-top:40px;
+  text-align: center;
+}
+
+footer h3{
+font-size:30px;
+padding-top:70px;
+}
+
+
+footer p{
+  padding-top:20px;
+}
+
+
+
+/* スクロール動き */
+
+.fadeIn {
+  opacity : 0;
+  transform : translate(0, 50px);
+  transition : all 300ms;
+}
+.fadeIn.scrollin {
+  opacity : 1;
+  transform : translate(0, 0);
+}
+
+
+
+
+
+  /* タブレット向けレイアウト */
+@media all and (max-width: 1250px) {
+ 
+  .header-right{
+    display:none;
+  }
+  
+  .bar{
+    display:block;
+  }
+
+  .us-wrapper img{
+    display:block;
+    margin:0 auto;
+   }
+
+
+   .about-contents{
+    padding-bottom:250px;
+    }
+
+   .statement1{
+    top:300px;
+    right:300px;
+  }
+  
+  .statement2{
+    top:300px;
+    left:300px; 
+  }
+
+
+}
+
+
+
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  
+  .header-right{
+    display:none;
+  }
+  
+  .bar{
+    display:block;
+  }
+
+
+  .us-wrapper img{
+    display:block; 
+    margin:0 auto;
+   }
+  
+
+   .about-contents{
+   padding-bottom:250px;
+   }
+
+
+   .statement1{
+    top:300px;
+    right:100px;
+  }
+  
+  .statement2{
+    top:300px;
+    left:100px; 
+  }
+
+}
+
+
+
