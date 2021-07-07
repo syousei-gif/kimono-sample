@@ -117,7 +117,7 @@ header{
   }
 
   .top-wrapper{
-    background-image: url(../kimono-img/9I2A6164.jpg);
+    background-image: url(9I2A6164.jpg);
     background-size:cover;
     width:100%;
     padding:300px;
@@ -126,7 +126,7 @@ header{
 
 
   #message-wrapper{
-    background-image: url(../kimono-img/back.jpg);
+    background-image: url(back.jpg);
   }
   
 
@@ -174,7 +174,7 @@ header{
  #about-wrapper{
   margin-top:90px;
   text-align: center;
-  background-image: url(../kimono-img/18688.jpg);
+  background-image: url(18688.jpg);
   background-size:cover;
 }
 
@@ -249,7 +249,7 @@ background-color: rgb(129, 49, 129); */
 .member{
 padding-top:40px;
 width:70%;
-background-image: url(../kimono-img/wasi.jpg);
+background-image: url(wasi.jpg);
 background-size: cover;
 margin: 0 auto;
 }
@@ -315,7 +315,7 @@ dl{
 
 footer{
   height:250px;
-  background-image: url(../kimono-img/wasi.jpg);
+  background-image: url(wasi.jpg);
   background-size: cover;
   margin-top:40px;
   text-align: center;
